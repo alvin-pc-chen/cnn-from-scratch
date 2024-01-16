@@ -2,4 +2,4 @@ numpy
 torchvision
 torch
 tqdm
-matplotlib
+tensorflow
