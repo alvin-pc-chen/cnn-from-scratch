@@ -3,6 +3,7 @@
  - Learned to calculate and implement gradient descent
  - Achieved comparable accuracy on Fashion MNIST compared with Keras implementation (F1 = 0.890)
 
+![architecture.png](assets/architecture.png)
 
 ### Motivation
 Neural network architectures are more easily accessible now than ever before, which is a huge convenience for the user but leaves a lot of understanding in the realm of abstraction for the learner. As a student of NLP and machine learning, building neural networks from scratch has helped me develop an intrinsic understanding of the architecture, strengths, and weaknesses of these models. In this project I build the architecture for an iterable <strong>[Convolutional Neural Network (CNN)](https://www.geeksforgeeks.org/introduction-convolution-neural-network/)</strong> using numpy and train it on the <strong>[Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)</strong> dataset to perform a simple classification task. My implementation is both flexible (input, kernel, pool sizes are all variable) and iterable (forward and backpropagation for layer classes are modular and can be stacked to arbitrary lengths in any order). While this implementation achieves similar results to the Keras benchmark, there has been no optimization or refactoring so runtimes are orders of magnitude greater.
