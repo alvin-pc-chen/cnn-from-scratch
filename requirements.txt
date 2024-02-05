@@ -1,6 +1,6 @@
-numpy
-torchvision
-torch
+numpy==1.26.2
+torchvision==0.15.2
+matplotlib==3.8.2
+tensorflow==2.15.0
 tqdm
-tensorflow
-matplotlib
+jupyter
